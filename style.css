@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: white;
+
+}
+
+nav {
+    width: 880px;
+    height: 30px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.primero, .tercero {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.tercero {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/*ARREGLAR*/
+.leaf {
+    background-color: rgb(52, 196, 196);;
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+}
+
+
+h1 {
+    text-align: left;
+    margin-left: 15px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/*ARREGLAR*/
+.buscar {
+    height: 25px;
+    width: 450px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+
+.search-dark {
+    width: 20px;
+    margin-right: 10px;
+}
+
+input {
+    text-align: left;
+    border: none;
+    width: 445px;
+    height: 24px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.carro {
+    width: 35px;
+    margin-left: 20px;
+}
+
+.sign {
+    width: 50px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+.under-nav {
+    width: 880px;
+    height: 50px;
+    margin: 0 auto;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding: 5px;
+}
+
+
+ul {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+}
+
+ul, .under-nav a {
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+}
+
+main {
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.title {
+    padding-top: 30px;
+    font-size: 33px;
+}
+
+.cuadro {
+    color: white;
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: 25px;
+    margin-left: 3px;
+    margin-right: 3px;
+
+}
+
+.big {
+    display: flex;
+    width: 900px;
+    justify-content: space-between;
+}
+
+.container{
+    width: 550px;
+    background-color:rgb(52, 196, 196);
+    display: flex;
+    margin-top: 30px;
+    margin-left: 10px;
+
+}
+
+.imagen-1 {
+    width: 275px;
+    height: 275px;
+}
+
+.flecha {
+    text-align:end;
+    justify-content: center;
+    width: 30px;
+
+}
+
+.discover {
+    margin-top: 40px;
+    display:flex;
+}
+
+.texto {
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    margin-left: 75px;
+
+}
+
+.small-2 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.aloe-1 {
+    flex: 3;
+}
+
+.aloe-m {
+    width: 310px;
+    height: 190px;
+    margin-top: 30px;
+    margin-left: 2px;
+}
+
+.aloe-2 {
+    flex: 1;
+}
+
+.container-2 {
+    background-color: rgb(52, 196, 196);
+    width: 310px;
+    height: 65px;
+    margin-top: 15px;
+}
+
+.shoot {
+    display: flex;
+    margin-left: 20px;
+    text-align: center;
+}
+.texto-2 {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 23px;
+}
+
+.flecha-2 {
+    width: 30px;
+    height: 30px;
+    margin-top: 16px;
+}
+
+.container-3 {
+    background-color:  rgb(134, 214, 214);
+    display: flex;
+    height: 205px;
+    padding-top: 30px;
+    margin-top: 20px;
+    width: 880px;
+    margin-left: 10px;
+    justify-content: space-between;
+}
+
+.planta {
+    width: 120px;
+    border-radius: 50%;
+    margin: 20px 0;
+    gap: 2%;
+}
+
+.p-1, .p-2, .p-3, .p-4, .p-5, .p-6 {
+    flex: 1;
+}
+
+.plant-1, .plant-2, .plant-3, .plant-4, .plant-5, .plant-6 {
+    text-decoration: none;
+    color: black;
+
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.alert {
+    background-color: white;
+    width: 880px;
+    margin: 0 auto;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button {
+    background-color: lightseagreen;
+    color: white;
+    border: 2px solid black;
+    font-family: 'Poppins', sans-serif;
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+    -webkit-box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow:    2px 2px 0px 0px rgba(0, 0, 0, 0.75);
+    box-shadow:         2px 2px 0px 0px rgba(0, 0, 0, 0.75);
+}
+
+.text{
+    margin-left: 20px;
+}

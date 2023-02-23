@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Succulents</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav> 
+            <div class="primero">
+                <img src="images/assets/leaf.png" alt="leaf" class="leaf">
+                <h1>EasyBay</h1>
+            </div>
+            <form action="#" class="buscar">
+                <input type="text" placeholder="Search for anything" name="search"><img src="images/assets/search-dark.png" alt="search-dark" class="search-dark">
+            </form>
+            <div class="tercero">
+                <a href="#" class="sign">Sign In</a>
+                <img src="images/assets/cart-dark.png" alt="cart-dark" class="carro" onclick="displayAlert(this)">
+            </div>
+        </nav>
+
+        <div class="under-nav">
+            <ul>
+                <li><a href="#" >Aeonium</a></li>
+                <li><a href="#" >Andormischus</a></li>
+                <li><a href="#" >Agave</a></li>
+                <li><a href="#">Aloe</a></li>
+                <li><a href="#">Anacampseros</a></li>
+                <li><a href="#">Aristaloe</a></li>
+                <li><a href="#">More...</a></li>
+            </ul>
+
+        </div>
+    </header>
+
+    <main>
+        <h2 class="title">Your Source for Serious Succulent Specialties</h2>
+
+        <div class="big">
+            <div class="small">
+                <div class="container">
+                    <span class="cuadro">Discover succulent varieties one pot or rack at a time!
+                        <span class="discover">
+                            <a href="#" class="texto">Discover</a>
+                            <a href="#"><img src="images/assets/arrow-light.png" alt="arrow-light" class="flecha"></a>
+                        </span>
+                    </span>
+                    <img src="images/assets/succulents-1.jpg" alt="succulents-1" class="imagen-1" onmouseover="mouseOver()" onmouseout="mouseOut()">
+                </div>
+            </div>
+
+            <div class="small-2">
+                <div class="aloe-1">
+                    <img src="images/assets/aloe-m.jpg" alt="aloe-m" class="aloe-m">
+                </div>
+
+                <div class="aloe-2">
+                    <div class="container-2">
+                        <div class="shoot">
+                            <a href="#" class="texto-2">Shooting aloe</a>
+                            <a href="#"><img src="images/assets/arrow-light.png" alt="arrow-light" class="flecha-2"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="container-3">
+            <div class="p-1">
+                <img src="images/assets/aeonium-s.jpg" alt="aeonium-s" class="planta">
+                <a href="#" class="plant-1">Aeonium</a>
+            </div>
+
+            <div class="p-2">
+                <img src="images/assets/aloe-s.jpg" alt="aloe-s" class="planta">
+                <a href="#" class="plant-2">Aloe</a>
+            </div>
+
+            <div class="p-3">
+                <img src="images/assets/cactus-s.jpg" alt="cactus" class="planta">
+                <a href="#" class="plant-3">Cactus</a>
+            </div>
+
+            <div class="p-4">
+                <img src="images/assets/echeveria-s.jpg" alt="echeveria" class="planta">
+                <a href="#" class="plant-4">Echeveria</a>
+            </div>
+
+            <div class="p-5">
+                <img src="images/assets/sedum-s.jpg" alt="sedum-s" class="planta">
+                <a href="#" class="plant-5">Sedum</a>
+            </div>
+
+            <div class="p-6">
+                <img src="images/assets/sempervivum-s.jpg" alt="sempervivum-s" class="planta">
+                <a href="#" class="plant-6">Sempervivum</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="alert">
+            <img src="images/assets/alert-dark.png" alt="alert-dark">
+            <div class="text">
+                <p>This site makes us of third party cookies, by clicking "I Accept"
+                    you agree to the terms outlined in our <a href="#">cookie policy.</a>
+                </p>
+            </div>
+            <button onclick="removeAlert()">I Accept</button>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
+
+
